@@ -1,0 +1,35 @@
+{
+  "name": "rag-fsdcwdtb40",
+  "version": "1.0.0",
+  "description": "This repository contains a Retrieval-Augmented Generation (RAG) system that integrates with vector database(created at mongodb.com) to enhance the capabilities of language models by providing them with relevant information from a large corpus of data. The RAG system allows for more accurate and context-aware responses by retrieving relevant documents from the vector database and using them to generate responses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubscientist/rag-fsdcwdtb40.git"
+  },
+  "keywords": [
+    "rag",
+    "vector",
+    "database",
+    "embeddings",
+    "context",
+    "expressjs",
+    "nodejs",
+    "mongodb",
+    "dotenv"
+  ],
+  "author": "Sathish Gnanaprakasam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/githubscientist/rag-fsdcwdtb40/issues"
+  },
+  "homepage": "https://github.com/githubscientist/rag-fsdcwdtb40#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
